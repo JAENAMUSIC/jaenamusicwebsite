@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="JAENA — Independent artist, songwriter and producer. Music for the ones who still dream.">
+  <title>JΔΞNΔ — Official Website</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: #090909; color: #e9e5df;
+      font-family: 'Inter', sans-serif; font-weight: 300;
+    }
+    a { color: inherit; text-decoration: none; }
+    header {
+      position: absolute; top: 0; width: 100%; padding: 28px 7%;
+      display: flex; justify-content: space-between; align-items: center;
+      z-index: 2; letter-spacing: 2px; font-size: 10px;
+    }
+    .logo { font-size: 21px; letter-spacing: 5px; }
+    nav { display: flex; gap: 28px; }
+    nav a { opacity: .7; }
+    nav a:hover { opacity: 1; }
+    .hero {
+      min-height: 92vh; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; text-align: center;
+      padding: 100px 20px 65px;
+      background: radial-gradient(ellipse at 50% 42%, #302923 0%, #171412 27%, #090909 68%);
+    }
+    .eyebrow { font-size: 9px; letter-spacing: 5px; color: #b8a58c; }
+    h1 {
+      font-family: 'Cormorant Garamond', serif; font-weight: 300;
+      font-size: clamp(65px, 13vw, 150px); letter-spacing: .12em;
+      margin: 30px 0 15px;
+    }
+    .subtitle { font-size: 10px; letter-spacing: 4px; color: #c6bcb0; }
+    .hero p { margin-top: 22px; font-family: 'Cormorant Garamond', serif; font-size: 21px; color: #bcb2a7; }
+    .cta {
+      display: inline-block; margin-top: 38px; padding: 14px 24px;
+      border: 1px solid #716456; font-size: 9px; letter-spacing: 3px;
+      transition: background .3s;
+    }
+    .cta:hover { background: #e9e5df; color: #090909; }
+    section { padding: 100px 9%; }
+    .label { color: #b8a58c; font-size: 9px; letter-spacing: 4px; margin-bottom: 24px; }
+    h2 { font: 300 clamp(36px, 6vw, 64px) 'Cormorant Garamond', serif; margin-bottom: 24px; }
+    .intro { max-width: 600px; color: #aaa39a; line-height: 1.9; font-size: 13px; }
+    .music { background: #100f0e; }
+    .release {
+      border-top: 1px solid #38322c; border-bottom: 1px solid #38322c;
+      padding: 28px 0; display: flex; justify-content: space-between;
+      align-items: center; gap: 20px;
+    }
+    .release h3 { font: 400 28px 'Cormorant Garamond', serif; }
+    .release p { color: #999087; font-size: 10px; margin-top: 8px; letter-spacing: 1px; }
+    .release a { font-size: 10px; letter-spacing: 2px; border-bottom: 1px solid #8c7c69; padding-bottom: 6px; }
+    .visuals {
+      text-align: center; background: radial-gradient(ellipse at center, #201b17, #090909 70%);
+    }
+    .visuals .intro { margin: auto; }
+    .about { background: #e7e0d6; color: #181512; }
+    .about .label { color: #77634e; }
+    .about .intro { color: #4e4943; }
+    .contact { text-align: center; }
+    .contact .intro { margin: auto; }
+    footer {
+      padding: 25px 7%; display: flex; justify-content: space-between;
+      gap: 15px; color: #77716a; font-size: 9px; letter-spacing: 2px;
+      border-top: 1px solid #24211e;
+    }
+    @media(max-width:600px) {
+      header { padding: 22px 5%; }
+      .logo { font-size: 17px; }
+      nav { gap: 13px; font-size: 8px; }
+      section { padding: 75px 7%; }
+      .release { align-items: flex-start; flex-direction: column; }
+      footer { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="#">JΔΞNΔ</a>
+    <nav>
+      <a href="#music">MUSIC</a>
+      <a href="#visuals">VISUALS</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">INDEPENDENT ARTIST · SONGWRITER · PRODUCER</div>
+      <h1>JΔΞNΔ</h1>
+      <div class="subtitle">JAENA CULTURE</div>
+      <p>Music for the ones who still dream.</p>
+      <a class="cta" href="#music">ENTER THE WORLD ↓</a>
+    </section>
+
+    <section class="music" id="music">
+      <div class="label">01 / SOUND</div>
+      <h2>Music for the in-between.</h2>
+      <p class="intro">Songs about love, loss, memory, and everything that exists between the stars.</p>
+
+      <div class="release" style="margin-top:38px">
+        <div>
+          <h3>All Out of Dreams</h3>
+          <p>THE SINGLE · LISTEN NOW</p>
+        </div>
+        <a href="https://open.spotify.com/" target="_blank" rel="noopener">LISTEN ↗</a>
+      </div>
+
+      <div class="release">
+        <div>
+          <h3>My Love</h3>
+          <p>THE SINGLE · LISTEN NOW</p>
+        </div>
+        <a href="https://open.spotify.com/" target="_blank" rel="noopener">LISTEN ↗</a>
+      </div>
+
+      <a class="cta" href="https://open.spotify.com/" target="_blank" rel="noopener">EXPLORE ALL MUSIC ↗</a>
+    </section>
+
+    <section class="visuals" id="visuals">
+      <div class="label">02 / THE VISUAL WORLD</div>
+      <h2>Dreams leave traces.</h2>
+      <p class="intro">A living archive of moving images, fragments, photographs, and worlds yet to be discovered.</p>
+      <a class="cta" href="https://www.youtube.com/" target="_blank" rel="noopener">WATCH FILMS ↗</a>
+    </section>
+
+    <section class="about" id="about">
+      <div class="label">03 / THE ARTIST</div>
+      <h2>Outside the ordinary.</h2>
+      <p class="intro">JAENA is an independent artist, songwriter, and producer exploring the space where intimate human stories meet vast, imagined worlds. Through music and image, JAENA Culture is an ongoing experiment in creative freedom, consciousness, and the revolution of the soul.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="label">04 / CONNECTION</div>
+      <h2>Let's create something.</h2>
+      <p class="intro">For production, collaborations, live performances, press, and other enquiries.</p>
+      <a class="cta" href="mailto:hello@jaenamusic.com">GET IN TOUCH ↗</a>
+      <p style="margin-top:28px;font-size:10px;letter-spacing:2px;color:#999">
+        <a href="https://instagram.com/jaenamusic" target="_blank" rel="noopener">INSTAGRAM ↗</a>
+        &nbsp; / &nbsp;
+        <a href="https://youtube.com/" target="_blank" rel="noopener">YOUTUBE ↗</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 JAENA CULTURE</span>
+    <span>INDEPENDENT BY NATURE.</span>
+    <span>MADE OF DREAMS.</span>
+  </footer>
+</body>
+</html>
